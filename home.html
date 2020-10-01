@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+ <style type="text/css">
+
+ body {background-color: #f7931e;}
+ 	
+* {
+  box-sizing: border-box;
+}
+.c {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.one{
+	width:45%;
+	position: absolute;
+	
+}
+
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 39px;
+	color:#000000;
+	padding-top: 300px;
+	padding-left: 800px;
+	animation: colorRotate 2s linear 0s infinite;
+
+}
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    width: 100%; 
+  }
+}
+ </style>
+
+</head>
+<body>
+<div class="row">
+  <div class="c1"><img class="one" src="img/ceo.png"></div>
+
+  <div class="c2"><h1>CEO of Intergral Financial LLC</h1></div>
+</div>
+
+</body>
+</html>
